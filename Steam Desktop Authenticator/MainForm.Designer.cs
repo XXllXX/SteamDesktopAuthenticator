@@ -82,7 +82,7 @@
             this.btnSteamLogin.Name = "btnSteamLogin";
             this.btnSteamLogin.Size = new System.Drawing.Size(155, 30);
             this.btnSteamLogin.TabIndex = 1;
-            this.btnSteamLogin.Text = "Setup New Account";
+            this.btnSteamLogin.Text = "新账户";
             this.btnSteamLogin.UseVisualStyleBackColor = true;
             this.btnSteamLogin.Click += new System.EventHandler(this.btnSteamLogin_Click);
             // 
@@ -98,7 +98,7 @@
             this.groupBox1.Size = new System.Drawing.Size(310, 85);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Login Token";
+            this.groupBox1.Text = "令牌";
             // 
             // btnCopy
             // 
@@ -162,7 +162,7 @@
             this.btnTradeConfirmations.Name = "btnTradeConfirmations";
             this.btnTradeConfirmations.Size = new System.Drawing.Size(298, 31);
             this.btnTradeConfirmations.TabIndex = 4;
-            this.btnTradeConfirmations.Text = "View Confirmations";
+            this.btnTradeConfirmations.Text = "查看证书";
             this.btnTradeConfirmations.UseVisualStyleBackColor = true;
             this.btnTradeConfirmations.Click += new System.EventHandler(this.btnTradeConfirmations_Click);
             // 
@@ -173,7 +173,7 @@
             this.btnManageEncryption.Name = "btnManageEncryption";
             this.btnManageEncryption.Size = new System.Drawing.Size(155, 30);
             this.btnManageEncryption.TabIndex = 6;
-            this.btnManageEncryption.Text = "Manage Encryption";
+            this.btnManageEncryption.Text = "加密";
             this.btnManageEncryption.UseVisualStyleBackColor = true;
             this.btnManageEncryption.Click += new System.EventHandler(this.btnManageEncryption_Click);
             // 
@@ -187,7 +187,7 @@
             this.groupAccount.Size = new System.Drawing.Size(310, 56);
             this.groupAccount.TabIndex = 7;
             this.groupAccount.TabStop = false;
-            this.groupAccount.Text = "Account";
+            this.groupAccount.Text = "账户";
             // 
             // labelVersion
             // 
@@ -227,7 +227,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(334, 24);
+            this.menuStrip.Size = new System.Drawing.Size(334, 25);
             this.menuStrip.TabIndex = 10;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -239,33 +239,33 @@
             this.menuSettings,
             this.menuQuit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.fileToolStripMenuItem.Text = "打开";
             // 
             // menuImportAccount
             // 
             this.menuImportAccount.Name = "menuImportAccount";
-            this.menuImportAccount.Size = new System.Drawing.Size(158, 22);
-            this.menuImportAccount.Text = "Import Account";
+            this.menuImportAccount.Size = new System.Drawing.Size(180, 22);
+            this.menuImportAccount.Text = "导入";
             this.menuImportAccount.Click += new System.EventHandler(this.menuImportAccount_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // menuSettings
             // 
             this.menuSettings.Name = "menuSettings";
-            this.menuSettings.Size = new System.Drawing.Size(158, 22);
-            this.menuSettings.Text = "Settings";
+            this.menuSettings.Size = new System.Drawing.Size(180, 22);
+            this.menuSettings.Text = "设置";
             this.menuSettings.Click += new System.EventHandler(this.menuSettings_Click);
             // 
             // menuQuit
             // 
             this.menuQuit.Name = "menuQuit";
-            this.menuQuit.Size = new System.Drawing.Size(158, 22);
-            this.menuQuit.Text = "Quit";
+            this.menuQuit.Size = new System.Drawing.Size(180, 22);
+            this.menuQuit.Text = "退出";
             this.menuQuit.Click += new System.EventHandler(this.menuQuit_Click);
             // 
             // accountToolStripMenuItem
@@ -277,40 +277,40 @@
             this.menuRemoveAccountFromManifest,
             this.menuDeactivateAuthenticator});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(119, 21);
             this.accountToolStripMenuItem.Text = "Selected Account";
             // 
             // menuLoginAgain
             // 
             this.menuLoginAgain.Name = "menuLoginAgain";
-            this.menuLoginAgain.Size = new System.Drawing.Size(205, 22);
+            this.menuLoginAgain.Size = new System.Drawing.Size(208, 22);
             this.menuLoginAgain.Text = "Login again";
             this.menuLoginAgain.Click += new System.EventHandler(this.menuLoginAgain_Click);
             // 
             // menuRefreshSession
             // 
             this.menuRefreshSession.Name = "menuRefreshSession";
-            this.menuRefreshSession.Size = new System.Drawing.Size(205, 22);
+            this.menuRefreshSession.Size = new System.Drawing.Size(208, 22);
             this.menuRefreshSession.Text = "Force session refresh";
             this.menuRefreshSession.Click += new System.EventHandler(this.menuRefreshSession_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(202, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(205, 6);
             // 
             // menuRemoveAccountFromManifest
             // 
             this.menuRemoveAccountFromManifest.Name = "menuRemoveAccountFromManifest";
-            this.menuRemoveAccountFromManifest.Size = new System.Drawing.Size(205, 22);
+            this.menuRemoveAccountFromManifest.Size = new System.Drawing.Size(208, 22);
             this.menuRemoveAccountFromManifest.Text = "Remove from manifest";
             this.menuRemoveAccountFromManifest.Click += new System.EventHandler(this.menuRemoveAccountFromManifest_Click);
             // 
             // menuDeactivateAuthenticator
             // 
             this.menuDeactivateAuthenticator.Name = "menuDeactivateAuthenticator";
-            this.menuDeactivateAuthenticator.Size = new System.Drawing.Size(205, 22);
-            this.menuDeactivateAuthenticator.Text = "Deactivate Authenticator";
+            this.menuDeactivateAuthenticator.Size = new System.Drawing.Size(208, 22);
+            this.menuDeactivateAuthenticator.Text = "停止桌面令牌";
             this.menuDeactivateAuthenticator.Click += new System.EventHandler(this.menuDeactivateAuthenticator_Click);
             // 
             // trayIcon
@@ -331,19 +331,19 @@
             this.toolStripSeparator3,
             this.trayQuit});
             this.menuStripTray.Name = "contextMenuStripTray";
-            this.menuStripTray.Size = new System.Drawing.Size(216, 131);
+            this.menuStripTray.Size = new System.Drawing.Size(236, 133);
             // 
             // trayRestore
             // 
             this.trayRestore.Name = "trayRestore";
-            this.trayRestore.Size = new System.Drawing.Size(215, 22);
+            this.trayRestore.Size = new System.Drawing.Size(235, 22);
             this.trayRestore.Text = "Restore";
             this.trayRestore.Click += new System.EventHandler(this.trayRestore_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(212, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(232, 6);
             // 
             // trayAccountList
             // 
@@ -352,32 +352,32 @@
             "test1",
             "test2"});
             this.trayAccountList.Name = "trayAccountList";
-            this.trayAccountList.Size = new System.Drawing.Size(121, 23);
+            this.trayAccountList.Size = new System.Drawing.Size(121, 25);
             this.trayAccountList.SelectedIndexChanged += new System.EventHandler(this.trayAccountList_SelectedIndexChanged);
             // 
             // trayTradeConfirmations
             // 
             this.trayTradeConfirmations.Name = "trayTradeConfirmations";
-            this.trayTradeConfirmations.Size = new System.Drawing.Size(215, 22);
+            this.trayTradeConfirmations.Size = new System.Drawing.Size(235, 22);
             this.trayTradeConfirmations.Text = "Trade Confirmations";
             this.trayTradeConfirmations.Click += new System.EventHandler(this.trayTradeConfirmations_Click);
             // 
             // trayCopySteamGuard
             // 
             this.trayCopySteamGuard.Name = "trayCopySteamGuard";
-            this.trayCopySteamGuard.Size = new System.Drawing.Size(215, 22);
+            this.trayCopySteamGuard.Size = new System.Drawing.Size(235, 22);
             this.trayCopySteamGuard.Text = "Copy SG code to clipboard";
             this.trayCopySteamGuard.Click += new System.EventHandler(this.trayCopySteamGuard_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(212, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(232, 6);
             // 
             // trayQuit
             // 
             this.trayQuit.Name = "trayQuit";
-            this.trayQuit.Size = new System.Drawing.Size(215, 22);
+            this.trayQuit.Size = new System.Drawing.Size(235, 22);
             this.trayQuit.Text = "Quit";
             this.trayQuit.Click += new System.EventHandler(this.trayQuit_Click);
             // 
@@ -455,7 +455,7 @@
             this.MinimumSize = new System.Drawing.Size(350, 400);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Steam Desktop Authenticator";
+            this.Text = "Steam 桌面令牌";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);

@@ -52,8 +52,7 @@
             this.btnImportConfig.Name = "btnImportConfig";
             this.btnImportConfig.Size = new System.Drawing.Size(366, 51);
             this.btnImportConfig.TabIndex = 1;
-            this.btnImportConfig.Text = "I already setup Steam Desktop Authenticator in another location on this PC and I " +
-    "want to import its account(s).\r\n";
+            this.btnImportConfig.Text = "导入已存在的令牌";
             this.btnImportConfig.UseVisualStyleBackColor = true;
             this.btnImportConfig.Click += new System.EventHandler(this.btnImportConfig_Click);
             // 
@@ -64,7 +63,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(366, 37);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Select an item to get started:";
+            this.label2.Text = "请选择一项";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnJustStart
@@ -74,7 +73,7 @@
             this.btnJustStart.Name = "btnJustStart";
             this.btnJustStart.Size = new System.Drawing.Size(366, 52);
             this.btnJustStart.TabIndex = 4;
-            this.btnJustStart.Text = "This is my first time and \r\nI just want to sign into my Steam Account(s).";
+            this.btnJustStart.Text = "绑定令牌";
             this.btnJustStart.UseVisualStyleBackColor = true;
             this.btnJustStart.Click += new System.EventHandler(this.btnJustStart_Click);
             // 

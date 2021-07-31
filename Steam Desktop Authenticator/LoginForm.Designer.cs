@@ -41,11 +41,11 @@
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(12, 30);
+            this.label1.Location = new System.Drawing.Point(-6, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 25);
+            this.label1.Size = new System.Drawing.Size(101, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username:";
+            this.label1.Text = "用户名";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtUsername
@@ -73,7 +73,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password:";
+            this.label2.Text = "密码";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnSteamLogin
@@ -83,19 +83,18 @@
             this.btnSteamLogin.Name = "btnSteamLogin";
             this.btnSteamLogin.Size = new System.Drawing.Size(110, 33);
             this.btnSteamLogin.TabIndex = 4;
-            this.btnSteamLogin.Text = "Login";
+            this.btnSteamLogin.Text = "登陆";
             this.btnSteamLogin.UseVisualStyleBackColor = true;
             this.btnSteamLogin.Click += new System.EventHandler(this.btnSteamLogin_Click);
             // 
             // labelLoginExplanation
             // 
             this.labelLoginExplanation.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLoginExplanation.Location = new System.Drawing.Point(15, 98);
+            this.labelLoginExplanation.Location = new System.Drawing.Point(60, 109);
             this.labelLoginExplanation.Name = "labelLoginExplanation";
-            this.labelLoginExplanation.Size = new System.Drawing.Size(306, 46);
+            this.labelLoginExplanation.Size = new System.Drawing.Size(261, 20);
             this.labelLoginExplanation.TabIndex = 5;
-            this.labelLoginExplanation.Text = "This will activate Steam Desktop Authenticator on your Steam account. This requir" +
-    "es a phone number that can receive SMS.";
+            this.labelLoginExplanation.Text = "绑定桌面令牌需要一个手机号接收验证码";
             // 
             // LoginForm
             // 
@@ -117,7 +116,7 @@
             this.Name = "LoginForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Steam Login";
+            this.Text = "登陆Steam";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

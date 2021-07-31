@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CefSharp;
-using System.Diagnostics;
-using System.IO;
-using Newtonsoft.Json;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Steam_Desktop_Authenticator
